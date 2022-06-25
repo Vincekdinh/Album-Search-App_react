@@ -4,6 +4,7 @@ import Header from "./Header";
 import HorizontalRule from "./HorizontalRule";
 import axios from "axios";
 import AlbumsList from "./AlbumsList";
+import "../App.css"
 
 class App extends React.Component {
   state = { albums: [] };
@@ -19,15 +20,15 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <>
         <SearchBar onSubmit={this.onSearchSubmit} />
         <Header />
         <HorizontalRule />
         <div className='container'>
-          Results:{this.state.albums.length}
+           Results:{this.state.albums.length}
           <AlbumsList albums={this.state.albums} />
         </div>
-      </div>
+      </>
     );
   }
 }

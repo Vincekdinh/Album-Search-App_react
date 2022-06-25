@@ -1,7 +1,7 @@
 import React from "react";
 
 function Header() {
-  return <div className='album__header'>Search Album by Artist Name</div>;
+  return <header className='album__header'>Search Album by Artist Name</header>;
 }
 
 export default Header;
