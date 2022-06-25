@@ -1,4 +1,4 @@
-### Live Demo: Technical issues with deployment
+### Live Demo: https://albumsearchapp-react.netlify.app
 
 
 # Getting Started with Create React App
