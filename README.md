@@ -1,3 +1,5 @@
+### Make an API call to find music albums by artist name - built with ReactJS
+
 ### Live Demo: https://albumsearchapp-react.netlify.app
 
 
