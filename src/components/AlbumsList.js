@@ -8,7 +8,7 @@ const AlbumsList = ({ albums, loading }) => {
       <section id="album__container">
         <ol id="album__content">
           {albums.map((album) => (
-            <AlbumItem album={album} />
+            <AlbumItem key={album.collectionId} album={album} />
           ))}
         </ol>
       </section>
